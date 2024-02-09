@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	string Songs[] = { "Stir Fry by The Migos,", "24k Magic by Bruno Mars,", "Need it by The Migos" };
+
+	for (int i = 0; i < 3; i++)
+		cout << Songs[i] << " ";
+	cout << endl;
+
+	Songs[1] = "Location by Khalid,";
+
+	cout << endl;
+
+	for (int i = 2; i <3; i++)
+		cout << Songs[i] << " ";
+	cout << endl;
+
+	cout << endl;
+
+	for (int i = 0; i < 3; i++)
+		cout << Songs[i] << " ";
+	cout << endl;
+
+	for (int i = 0; i < 3; i++)
+		if (Songs[i] == "Blinding Lights by The Weeknd")
+			cout << "W song" << endl;
+		else
+			cout << "How do you not know The Weeknd?" << endl;
+	cout << endl;
+}
