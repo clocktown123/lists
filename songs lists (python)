@@ -1,0 +1,11 @@
+Songs = ["Stir Fry by The Migos", "24k Magic by Bruno Mars", "Need it by The Migos"]
+Songs.append("Blinding lights by The Weeknd")
+Songs.remove("24k Magic by Bruno Mars")
+Songs.insert(2, "Location by Khalid")
+print(len(Songs))
+if "Stir Fry by The Migos" in Songs:
+    print("true")
+else:
+    print("false")
+    
+print (Songs)
