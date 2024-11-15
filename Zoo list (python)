@@ -1,0 +1,11 @@
+Zoo = ["monkey", "elephant", "lion", "tiger", "giraffe"]
+Zoo.append("panda")
+print(Zoo)
+
+print(len(Zoo))
+
+Zoo.remove("lion")
+print(Zoo)
+
+Zoo[1] = ("meerkat")
+print(Zoo)
